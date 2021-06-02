@@ -1,0 +1,13 @@
+.button:hover, .button:active, .button:focus {
+	outline-width: 0px !important;
+	background-color: #35bf8c;
+}
+input:focus, button:focus {
+	outline: none;
+}
+#clear-search-bar-input:hover {
+	cursor: pointer;
+}
+.less:hover, .dots:hover{
+	cursor: pointer;	
+}

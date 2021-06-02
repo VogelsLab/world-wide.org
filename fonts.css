@@ -1,0 +1,143 @@
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Hair.woff2) format("woff2");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-HairItalic.woff2) format("woff2");
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-UltraLight.woff2) format("woff2");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-UltraLightItalic.woff2) format("woff2");
+	font-weight: 200;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Light.woff2) format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-LightItalic.woff2) format("woff2");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Regular.woff2) format("woff2");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Italic.woff2) format("woff2");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Medium.woff2) format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-MediumItalic.woff2) format("woff2");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-SemiBold.woff2) format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-SemiBoldItalic.woff2) format("woff2");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Bold.woff2) format("woff2");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-BoldItalic.woff2) format("woff2");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-ExtraBold.woff2) format("woff2");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-ExtraBoldItalic.woff2) format("woff2");
+	font-weight: 800;
+	font-style: italic;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-Heavy.woff2) format("woff2");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap
+}
+
+@font-face {
+	font-family: FiraGO;
+	src: url(FiraGO-HeavyItalic.woff2) format("woff2");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap
+}
