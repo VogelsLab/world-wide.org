@@ -1,1 +1,51 @@
-{"Physics of Life": {"domain_name": "Physics of Life", "domain_nickname": "Physics of Life", "domain_alias": "Physics-of-Life", "about_this_domain": "We aim to nurture an inclusive, international community of researchers interested in the measurement, modeling, and theory of living systems at the molecular, cellular, neural, organismal, collective, and ecosystem scales. We invite researchers from anywhere to participate. Join us, organize seminars, symposia or schools, host them on any teleconferencing platform (Zoom, Crowdcast, etc.), and advertise here, via the website and our mailing list.", "banner_image": "https://physicsworld.com/wp-content/uploads/2018/04/PWApr18REV-quantum.jpg", "mail_list": "worldwidephysicsoflife+subscribe@googlegroups.com", "twitter_account": "wwphysicsoflife", "contact_us_email": "tiera.ward@emory.edu"}, "Neuroscience": {"domain_name": "Neuroscience", "domain_nickname": "Neuro", "domain_alias": "Neuro", "about_this_domain": "Borne of the Oxford Neurotheory Forum, we are bringing seminars online, making them greener and accessible from anywhere on the planet. We invite researchers from anywhere to participate. Join us, invite speakers and organise online seminars, host on any teleconferencing platform (Zoom, Crowdcast, etc) and advertise here, via the website and our mailing list.", "banner_image": "https://www.world-wide.org/Neuro/banner.jpg", "mail_list": "worldwideneuro+subscribe@googlegroups.com", "twitter_account": "worldwideneuro", "contact_us_email": "tim.vogels@ist.ac.at"}, "Psychology": {"domain_name": "Psychology", "domain_nickname": "Psychology", "domain_alias": "Psychology", "about_this_domain": "", "banner_image": "https://online.csp.edu/wp-content/uploads/2018/07/Basic-Psychology-FB.jpg", "mail_list": "", "twitter_account": "", "contact_us_email": "bozelosp@gmail.com"}, "Machine Learning": {"domain_name": "Machine Learning", "domain_nickname": "ML", "domain_alias": "ML", "banner_image": "https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Teaser/deep-learning-vs-machine-learning-t.jpg", "mail_list": "", "twitter_account": "", "contact_us_email": "tim.vogels@ist.ac.at"}, "Open Source": {"domain_name": "Open Source", "domain_nickname": "Open Source", "domain_alias": "Open-Source", "about_this_domain": "", "banner_image": "https://i.redd.it/3f7mtx6b2e041.jpg", "mail_list": "", "twitter_account": "", "contact_us_email": "bozelosp@gmail.com"}}
+{
+  "Physics of Life": {
+    "domain_name": "Physics of Life",
+    "domain_nickname": "Physics of Life",
+    "domain_alias": "Physics-of-Life",
+    "about_this_domain": "We aim to nurture an inclusive, international community of researchers interested in the measurement, modeling, and theory of living systems at the molecular, cellular, neural, organismal, collective, and ecosystem scales. We invite researchers from anywhere to participate. Join us, organize seminars, symposia or schools, host them on any teleconferencing platform (Zoom, Crowdcast, etc.), and advertise here, via the website and our mailing list.",
+    "banner_image": "https://physicsworld.com/wp-content/uploads/2018/04/PWApr18REV-quantum.jpg",
+    "mail_list": "worldwidephysicsoflife+subscribe@googlegroups.com",
+    "twitter_account": "wwphysicsoflife",
+    "contact_us_email": "tiera.ward@emory.edu"
+  },
+  "Neuroscience": {
+    "domain_name": "Neuroscience",
+    "domain_nickname": "Neuro",
+    "domain_alias": "Neuro",
+    "about_this_domain": "Borne of the Oxford Neurotheory Forum, we are bringing seminars online, making them greener and accessible from anywhere on the planet. We invite researchers from anywhere to participate. Join us, invite speakers and organise online seminars, host on any teleconferencing platform (Zoom, Crowdcast, etc) and advertise here, via the website and our mailing list.",
+    "banner_image": "https://www.world-wide.org/Neuro/banner.jpg",
+    "mail_list": "worldwideneuro+subscribe@googlegroups.com",
+    "twitter_account": "worldwideneuro",
+    "contact_us_email": "tim.vogels@ist.ac.at"
+  },
+  "Psychology": {
+    "domain_name": "Psychology",
+    "domain_nickname": "Psychology",
+    "domain_alias": "Psychology",
+    "about_this_domain": "",
+    "banner_image": "https://online.csp.edu/wp-content/uploads/2018/07/Basic-Psychology-FB.jpg",
+    "mail_list": "",
+    "twitter_account": "",
+    "contact_us_email": "bozelosp@gmail.com"
+  },
+  "Machine Learning": {
+    "domain_name": "Machine Learning",
+    "domain_nickname": "ML",
+    "domain_alias": "ML",
+    "banner_image": "https://www.ionos.de/digitalguide/fileadmin/DigitalGuide/Teaser/deep-learning-vs-machine-learning-t.jpg",
+    "mail_list": "",
+    "twitter_account": "",
+    "contact_us_email": "tim.vogels@ist.ac.at"
+  },
+  "Open Source": {
+    "domain_name": "Open Source",
+    "domain_nickname": "Open Source",
+    "domain_alias": "Open-Source",
+    "about_this_domain": "",
+    "banner_image": "https://i.redd.it/3f7mtx6b2e041.jpg",
+    "mail_list": "",
+    "twitter_account": "",
+    "contact_us_email": "bozelosp@gmail.com"
+  }
+}

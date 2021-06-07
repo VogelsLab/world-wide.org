@@ -1,0 +1,306 @@
+body,
+html {
+  font-family: FiraGO, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 0.9rem;
+  margin: 0px;
+  background-color: whitesmoke;
+  /* #385b66 */
+}
+
+#page-container {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+#banner {
+  position: relative;
+}
+
+#hero-image {
+  width: 100%;
+  height: 21rem;
+  object-fit: cover;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 3px 5px black;
+}
+
+@media (max-width: 800px) {
+  #hero-image {
+    height: 9.5rem;
+  }
+}
+
+#website-title {
+  z-index: 999;
+
+  position: absolute;
+  width: 100%;
+  top: 3.5rem;
+
+  color: white;
+  text-align: center;
+  font-family: "FiraGO", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 3.075vw;
+  letter-spacing: 0.35vw;
+
+  text-shadow: 2.5px 2.5px 6px #000000;
+  transform: translateY(-40%);
+}
+
+@media (min-width: 1020px) {
+  #website-title {
+    top: 9.5rem;
+    font-size: 3.45vw;
+  }
+}
+
+@media (max-width: 800px) {
+  #website-title {
+    top: 4rem;
+    font-size: 6.5vw;
+    letter-spacing: 1vw;
+    word-spacing: 0.25vw;
+    transform: translateY(-20%);
+  }
+}
+
+.slogan {
+  position: relative;
+  width: 90%;
+  left: 5%;
+
+  color: black;
+  vertical-align: middle;
+  text-align: center;
+  font-family: "FiraGO", sans-serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.25vw;
+}
+
+@media (max-width: 800px) {
+  .slogan {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+}
+
+#seminars-slogan {
+  margin-top: 5vh;
+}
+
+@media (max-width: 800px) {
+  #seminars-slogan {
+    margin-top: 5vh;
+  }
+}
+
+#domains-wrapper {
+  position: relative;
+  display: flex;
+
+  margin-top: 5vh;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+@media (max-width: 800px) {
+  #domains-wrapper {
+    margin-top: 3.5vh;
+  }
+}
+
+#horizontal-line {
+  position: relative;
+  width: 45%;
+
+  margin-top: 7vh;
+
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0.925),
+    rgba(255, 255, 255, 0.45),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+@media (max-width: 800px) {
+  #horizontal-line {
+    margin-top: 5vh;
+    width: 80%;
+  }
+}
+
+#jobs-slogan {
+  margin-top: 7vh;
+}
+
+/* HOME TOPICS */
+
+/* parent button class */
+.button-item {
+  position: relative;
+  overflow: hidden;
+  flex: 1 1 0;
+  width: 33%;
+  min-width: 300px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 0.125rem;
+
+  color: rgba(255, 255, 255, 0.65);
+
+  padding: 1.2em 2.25em;
+
+  margin-left: 3rem;
+  margin-right: 3rem;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  border: none;
+  border-radius: 0.475rem;
+
+  cursor: pointer;
+  /*text-decoration: none;
+-webkit-appearance: none;*/
+
+  background-color: white;
+
+  border-radius: 17px;
+  background: #3b7078;
+  box-shadow: 6px 6px 12px #325f66, -6px -6px 12px #44818a;
+  transition: all 0.5s ease-out;
+}
+
+/* change shadow on hover to highlight topic */
+.button-item:hover{
+  box-shadow: 13px 13px 24px #325f66, -13px -13px 24px #44818a;
+  color: rgba(255, 255, 255, 1);
+}
+
+/* use an image background for the topic buttons */
+.img-bg, .img-bg-filter {
+  background-color: rgba(0,0,0,0.5) !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+/* define image to use */
+#Psychology .img-bg{
+    background: url("https://source.unsplash.com/user/erondu/400x400") center center no-repeat;
+}
+
+#Physics-of-Life .img-bg{
+    background: url("https://source.unsplash.com/user/jackie/400x400") center center no-repeat;
+}
+
+#ML .img-bg{
+    background: url("https://source.unsplash.com/collection/190727/400x400") center center no-repeat;
+
+}
+
+#Neuro .img-bg{
+    background: url("https://source.unsplash.com/collection/19/400x400") center center no-repeat;
+
+}
+
+#Open-Source .img-bg{
+    background: url("https://source.unsplash.com/random/400x400") center center no-repeat;
+
+}
+
+/* link text */
+.button-item p{
+  position: relative;
+  transition: color 0.5s ease-out;
+}
+
+#jobs-button-wrapper {
+  position: relative;
+  display: flex;
+
+  top: 4vh;
+
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  #jobs-button-wrapper {
+    top: 4vh;
+  }
+}
+
+#jobs-button {
+  text-align: center;
+  vertical-align: middle;
+
+  padding-left: 8rem;
+  padding-right: 8rem;
+
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+
+  font-size: 1.75rem;
+}
+
+@media (max-width: 800px) {
+  .button-item,
+  #jobs-button {
+    font-weight: 600;
+    font-size: 1.25rem;
+    letter-spacing: 0.125rem;
+
+    color: white;
+
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    border-radius: 0.75rem;
+  }
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  outline-width: 0px !important;
+  background-color: #35bf8c;
+}
+
+input:focus,
+button:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
